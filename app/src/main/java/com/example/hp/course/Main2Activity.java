@@ -18,7 +18,7 @@ public class Main2Activity extends AppCompatActivity {
         String fname =i.getStringExtra("fname");
         String lname =i.getStringExtra("lname");
         String db =i.getStringExtra("db");
-        tv_name.setText(lname+" "+fname);
+        tv_name.setText(fname+" "+lname);
         tv_db.setText(db);
     }
 }
